@@ -1,0 +1,48 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+h3{
+    color: thistle;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin-left: 20px;
+}
+
+table th{
+    background-color: rgb(52, 115, 209);
+    color: #dddddd;
+}
+
+table td {
+    background-color: rgb(207, 104, 211);
+    color: black;
+}
+
+table th,td {
+    border: 3px solid rgb(58, 184, 177);
+    transition: .3s ease all;
+    padding: 6px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 20px;
+}
+
+td:hover {
+    transform: scale(1.2);
+    color: white;
+}
